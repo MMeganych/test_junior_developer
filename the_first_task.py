@@ -1,6 +1,4 @@
 
-
-
 def reverse(number):
     num = number
     if number < 0:
@@ -48,12 +46,11 @@ def move_zero_2(nums):
     return nums
 
 
-
 array1 = [0, 1, 0, 4, 10]
 array2 = [1, 5, 0, 0, 7, 0, 2, 0, 1, 12, 0, 4]
 
 print(move_zero(array2))  # [1, 5, 7, 2, 1, 12, 4, 0, 0, 0, 0, 0]
 print(move_zero_2(array2))
 print(array2)
-
+print(reverse(2505))
 
