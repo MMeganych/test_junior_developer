@@ -3,8 +3,10 @@ def number_as_text(numeric: int):
         'ZERO', 'ONE', 'TWO', 'THREE', 'FOUR',
         'FIVE', 'SIX', 'SEVEN', 'EIGHT', 'NINE'
     )
+    result_func = ''
     for num in str(numeric):
-        print(string_tuple_list_for_digits[int(num)], end=' ')
+        result_func += string_tuple_list_for_digits[int(num)] + ' '
+    return str(result_func)
 
 
-number_as_text(148239)
+print(number_as_text(148239))

@@ -1,8 +1,5 @@
 
 def find_common(values1, values2):
-    if len(values1) > len(values2):
-        values1, values2 = values2, values1
-
     my_set = set()
     for x in values1:
         if x in values2:
