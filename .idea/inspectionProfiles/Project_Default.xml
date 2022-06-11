@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="str.pop" />
+          <option value="tuple.__neg__" />
         </list>
       </option>
     </inspection_tool>
