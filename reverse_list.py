@@ -14,11 +14,20 @@ def reverse_list_2(values):
     return inverted_list
 
 
+def reverse_list_3(values):
+    return [values[i] for i in range(len(values) - 1, -1, -1)]
+
+
+def reverse_list_4(values):
+    return list(reversed(values))
+
 
 my_list = ['hello', 'world', 'message']
 
 print(reverse_list(my_list))
 print(reverse_list_2(my_list))
+print(reverse_list_3(my_list))
+print(reverse_list_4(my_list))
 
 
 

@@ -21,7 +21,24 @@ def reverse_text_3(text):
     return inverted_string
 
 
+def reverse_4(text):
+    reversed_text = ""
+    for current_char in reversed(text):
+        reversed_text += current_char
+    return reversed_text
+
+
+def reverse_5(text):
+    reversed_text = ""
+    return reversed_text.join(reversed(text))
+
+
+
+
+
 print(reverse_text('message'))
 print(reverse_text_2('message'))
 print(reverse_text_3('message'))
-
+print(reverse_4('message'))
+print(reverse_5('message'))
+print(reverse_6('message'))
