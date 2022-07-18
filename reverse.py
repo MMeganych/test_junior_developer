@@ -33,12 +33,8 @@ def reverse_5(text):
     return reversed_text.join(reversed(text))
 
 
-
-
-
 print(reverse_text('message'))
 print(reverse_text_2('message'))
 print(reverse_text_3('message'))
 print(reverse_4('message'))
 print(reverse_5('message'))
-print(reverse_6('message'))
