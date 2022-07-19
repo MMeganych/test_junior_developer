@@ -1,10 +1,6 @@
 def calc_perfect_numbers(max_value: int) -> list:
     if max_value <= 10000:
-        result_list = []
-        for num in range(2, max_value + 1):
-            if is_perfect_number(num):        # True
-                result_list.append(num)
-        return result_list
+        return [num for num in range(2, max_value + 1) if is_perfect_number(num)]
 
 
 def is_perfect_number(num) -> bool:
